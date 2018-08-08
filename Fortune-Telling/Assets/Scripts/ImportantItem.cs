@@ -6,10 +6,12 @@ public class ImportantItem : MonoBehaviour {
 
     private Vector3 initScale;
     private Vector3 zoomScale;
-    private bool isMouseOver = false;
 
     public GameObject objLine;
-    public GameObject importantObj;
+    public GameObject objName;
+    public GameObject objDescrip;
+    public GameObject optionOne;
+    public GameObject optionTwo;
     public GameObject backButton;
 
     public Camera cam;
@@ -24,7 +26,10 @@ public class ImportantItem : MonoBehaviour {
     void Start()
     {
         objLine.SetActive(false);
-        importantObj.SetActive(false);
+        objName.SetActive(false);
+        objDescrip.SetActive(false);
+        optionOne.SetActive(false);
+        optionTwo.SetActive(false);
         backButton.SetActive(false);
         initScale = transform.localScale;
         zoomScale = 1.2f * initScale;
@@ -58,12 +63,16 @@ public class ImportantItem : MonoBehaviour {
     {
         transform.localScale = zoomScale;
         objLine.SetActive(true);
-        importantObj.SetActive(true);
+        objName.SetActive(true);
         if(Input.GetMouseButton(0))
         {
             cam.transform.position = targetPos.position;
             cam.orthographicSize = targetZoom;
             backButton.SetActive(true);
+            objDescrip.SetActive(true);
+            optionOne.SetActive(true);
+            optionTwo.SetActive(true);
+
         }
     }
 
@@ -73,7 +82,7 @@ public class ImportantItem : MonoBehaviour {
         if(!IsZoomed())
         {
             objLine.SetActive(false);
-            importantObj.SetActive(false);
+            objName.SetActive(false);
         }
     }
 }

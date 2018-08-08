@@ -13,6 +13,7 @@ public class BackButton : MonoBehaviour {
         {
             cam.transform.position = item.GetInitPosition();
             cam.orthographicSize = item.GetInitZoom();
+            gameObject.SetActive(false);
         }
     }
 }

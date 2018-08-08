@@ -6,12 +6,12 @@ public class MouseOverZoom : MonoBehaviour {
 
     private Vector3 initScale;
     private Vector3 zoomScale;
-    private bool isMouseOver = false;
+    public float zoomFactor = 1.2f;
     
     // Use this for initialization
 	void Start () {
         initScale = transform.localScale;
-        zoomScale = 1.2f * initScale;
+        zoomScale = zoomFactor * initScale;
 	}
 
     private void Update()

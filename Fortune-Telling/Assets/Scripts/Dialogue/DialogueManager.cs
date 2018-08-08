@@ -8,6 +8,8 @@ public class DialogueManager : MonoBehaviour {
     private Queue<string> sentences;
     private Dialogue dialogue;
     public Text mainText;
+    public GameObject TextStop;
+    public GameObject NextButton;
     
 
 	// Use this for initialization
@@ -15,12 +17,17 @@ public class DialogueManager : MonoBehaviour {
         sentences = new Queue<string>();
         dialogue = GetComponent<DialogueTrigger>().dialogue;
         StartDialogue(dialogue);
+        TextStop.SetActive(false);
+        NextButton.SetActive(true);
 	}
 	
     public void StartDialogue (Dialogue dialogue)
     {
 
         Debug.Log("Conversation Commences");
+
+        TextStop.SetActive(false);
+        NextButton.SetActive(true);
 
         sentences.Clear();
 
@@ -35,7 +42,7 @@ public class DialogueManager : MonoBehaviour {
 
     public void DisplayNextSentence()
     {
-        if (sentences.Count == 0)
+        if (sentences.Count == 1)
         {
             EndDialogue();
             return;
@@ -48,5 +55,9 @@ public class DialogueManager : MonoBehaviour {
     public void EndDialogue()
     {
         Debug.Log("end of convo");
+        string sentence = sentences.Dequeue();
+        mainText.text = sentence;
+        TextStop.SetActive(true);
+        NextButton.SetActive(false);
     }
 }

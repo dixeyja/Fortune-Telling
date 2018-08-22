@@ -21,8 +21,7 @@ public class DialogueTrigger : MonoBehaviour {
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
 
-        cam.transform.position = item.GetComponent<ImportantItem>().GetInitPosition();
-        cam.orthographicSize = item.GetComponent<ImportantItem>().GetInitZoom();
+
 
         item.SetActive(false);
         itemDescrip.SetActive(false);

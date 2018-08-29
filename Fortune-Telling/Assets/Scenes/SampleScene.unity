@@ -252,6 +252,8 @@ GameObject:
   - component: {fileID: 63442158}
   - component: {fileID: 63442160}
   - component: {fileID: 63442159}
+  - component: {fileID: 63442161}
+  - component: {fileID: 63442162}
   m_Layer: 9
   m_Name: left_choice
   m_TagString: Untagged
@@ -309,13 +311,72 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: the good choice
+  m_Text: Leave Town and Seek God. He will guide those you bid farewell
 --- !u!222 &63442160
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 63442157}
+--- !u!114 &63442161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63442157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c484971083651a418d9d5ba2cedd748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - "\u201CAbandoning Giovanni hardly feels like restoring my character, but maybe
+      you\u2019re right, I just need faith.\""
+    - "\"Faith in God to light the way and faith in Giovanni to follow.\u201D"
+    - He doffs his armor with careful deliberation, and places it upon the shelf for
+      you.
+    - For a moment he looks strong as he stretches with his newfound freedom, but
+      in the next moment he clasps his hands and bows with eyes to the ground.
+    - He looks to you.
+    - "\u201CPayment. For the trouble and my temper. May God shine upon you one day,
+      soothsayer.\u201D"
+    - "He walks past the outskirts of town muttering a prayer.\r\n"
+  item: {fileID: 1302814428}
+  cam: {fileID: 2028757893}
+  itemDescrip: {fileID: 1302573194}
+  itemOption1: {fileID: 0}
+  itemOption2: {fileID: 0}
+  backButton: {fileID: 0}
+  itemName: {fileID: 0}
+  trustVal: 0
+  unlockOne: {fileID: 0}
+  unlockTwo: {fileID: 0}
+--- !u!61 &63442162
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63442157}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 123.88, y: 227.46}
+  m_EdgeRadius: 0
 --- !u!1001 &77038552
 Prefab:
   m_ObjectHideFlags: 0
@@ -608,7 +669,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1981118150922890, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1143602132829020, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
@@ -1299,7 +1360,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1981118150922890, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1143602132829020, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
@@ -3900,7 +3961,6 @@ GameObject:
   - component: {fileID: 1166001537}
   - component: {fileID: 1166001540}
   - component: {fileID: 1166001539}
-  - component: {fileID: 1166001538}
   - component: {fileID: 1166001541}
   m_Layer: 9
   m_Name: card_right
@@ -3928,18 +3988,6 @@ RectTransform:
   m_AnchoredPosition: {x: 94.4, y: -0.0000000011641532}
   m_SizeDelta: {x: 122.56, y: 227.81}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1166001538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1166001536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64ffdaceba04e22438c3dcba2b738a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zoomFactor: 1.2
 --- !u!114 &1166001539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4088,7 +4136,7 @@ Prefab:
       objectReference: {fileID: 904975327}
     - target: {fileID: 1981118150922890, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114960012796271418, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -4622,7 +4670,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1981118150922890, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1143602132829020, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
@@ -4930,7 +4978,6 @@ GameObject:
   - component: {fileID: 1302814429}
   - component: {fileID: 1302814432}
   - component: {fileID: 1302814431}
-  - component: {fileID: 1302814430}
   - component: {fileID: 1302814433}
   m_Layer: 9
   m_Name: card_left
@@ -4958,18 +5005,6 @@ RectTransform:
   m_AnchoredPosition: {x: -94.4, y: 0}
   m_SizeDelta: {x: 122.56, y: 227.81}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1302814430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1302814428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64ffdaceba04e22438c3dcba2b738a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zoomFactor: 1.2
 --- !u!114 &1302814431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5309,7 +5344,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1981118150922890, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224678781382806086, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -6206,6 +6241,8 @@ GameObject:
   - component: {fileID: 1675393810}
   - component: {fileID: 1675393812}
   - component: {fileID: 1675393811}
+  - component: {fileID: 1675393813}
+  - component: {fileID: 1675393814}
   m_Layer: 9
   m_Name: right_choice
   m_TagString: Untagged
@@ -6263,13 +6300,69 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: the bad choice
+  m_Text: Have Giovanni judge you for your crimes so he may grow
 --- !u!222 &1675393812
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1675393809}
+--- !u!114 &1675393813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1675393809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c484971083651a418d9d5ba2cedd748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - "\u201CThis will not be easy will it\u2026 but I cannot help but agree.\""
+    - "\"I will force Baron Giovanni to face his duties as owner of this land and
+      prosecute me properly. I will beg him to.\u201D"
+    - "He doffs his armor like it were cursed and lets the weight on his shoulders
+      fall\u2026 right through the floorboards. That's going to cost some..."
+    - His back straightens, and his eyes look inward toward the town, hungry for resolution.
+    - "\u201CFarewell soothsayer, you may not be a man of God, but you are surely
+      blessed by Him.\u201D\r"
+  item: {fileID: 1166001536}
+  cam: {fileID: 2028757893}
+  itemDescrip: {fileID: 1302573194}
+  itemOption1: {fileID: 0}
+  itemOption2: {fileID: 0}
+  backButton: {fileID: 0}
+  itemName: {fileID: 0}
+  trustVal: 0
+  unlockOne: {fileID: 0}
+  unlockTwo: {fileID: 0}
+--- !u!61 &1675393814
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1675393809}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 123.6, y: 229.55}
+  m_EdgeRadius: 0
 --- !u!1 &1683822704
 GameObject:
   m_ObjectHideFlags: 0
@@ -7116,7 +7209,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1981118150922890, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1143602132829020, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive

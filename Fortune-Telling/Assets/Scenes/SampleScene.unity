@@ -326,7 +326,7 @@ Prefab:
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4777435388416868, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -443,7 +443,7 @@ Prefab:
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: trustVal
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 114079220353624024, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -465,38 +465,41 @@ Prefab:
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: 'An attack on my character is drivel if uttered by an idiot. '
+      value: "\u201CI can\u2019t help but feel that, had I not run into the merchant\u2019s
+        home to save his daughter, I would have been truly lost now.\""
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: 'I hold no love for gold nor trinkets, but perhaps too much for my lord '
+      value: '"I am to blame for one more child being deprived of the stern protection
+        of a father."'
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: And not enough for myself or God's will.
+      value: '"I must pay accordingly."'
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: trustVal
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "It\u2019s as you say. He lets no one near but I."
+      value: '"I have no such power over the elements as you surely taut yourself
+        to have, heathen."'
       objectReference: {fileID: 0}
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "When his father, Ranuccio, died of poisoning, I couldn\u2019t just leave
-        him be."
+      value: '"Though I would have liked to help, the least I could do before citizens
+        arrived was save his daughter from the burning home."'
       objectReference: {fileID: 0}
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: "How many years have I donned this gaudy armor\u2026"
+      value: '"Had I died in that fire, I feel it would have only been just."'
       objectReference: {fileID: 0}
     - target: {fileID: 224426368645785720, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -605,7 +608,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1981118150922890, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143602132829020, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
@@ -1013,7 +1016,7 @@ Prefab:
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4777435388416868, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1132,7 +1135,7 @@ Prefab:
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: trustVal
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 114079220353624024, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -1143,43 +1146,46 @@ Prefab:
     - target: {fileID: 114937694520673578, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: m_Text
-      value: "You run yourself ragged, uncertain of how to fix his broken heart.\r\n"
+      value: "Akin to God\u2019s guidance, you wish to guide Giovanni like a father.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 65405983411655652, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: m_Size.x
-      value: 1287.1
+      value: 1252.5
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: 'An attack on my character is drivel if uttered by an idiot. '
+      value: "\"Your words are mildly sacrilegious but\u2026 I cannot deny it now
+        that I see my actions for what they are.\""
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: 'I hold no love for gold nor trinkets, but perhaps too much for my lord '
+      value: "\"I\u2019ve certainly coddled him, and lacked the spine to teach him
+        to be a proper leader,\""
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: And not enough for myself or God's will.
+      value: "\"But I find solace in knowing I was on the right path.\u201D"
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: trustVal
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "It\u2019s as you say. He lets no one near but I."
+      value: "\"You\u2019re surely spouting nonsense if you think a baron would want
+        to live his life through his knight,\""
       objectReference: {fileID: 0}
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "When his father, Ranuccio, died of poisoning, I couldn\u2019t just leave
-        him be."
+      value: "\"And if you think his knight would quietly let you slight his baron
+        without scolding you for your insolence.\u201D"
       objectReference: {fileID: 0}
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -1214,22 +1220,22 @@ Prefab:
     - target: {fileID: 224339106806862216, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 4.25
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 224139077858496566, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 4.25
+      value: 4.45
       objectReference: {fileID: 0}
     - target: {fileID: 224339106806862216, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 2.6999
+      value: 2.62
       objectReference: {fileID: 0}
     - target: {fileID: 224139077858496566, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0.61
+      value: 0.81
       objectReference: {fileID: 0}
     - target: {fileID: 114960012796271418, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -1269,12 +1275,12 @@ Prefab:
     - target: {fileID: 65667880016632126, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: m_Size.x
-      value: 922.8
+      value: 817.9
       objectReference: {fileID: 0}
     - target: {fileID: 65667880016632126, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: m_Size.y
-      value: 805.5
+      value: 956.27
       objectReference: {fileID: 0}
     - target: {fileID: 65667880016632126, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -1289,11 +1295,11 @@ Prefab:
     - target: {fileID: 65405983411655652, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: m_Size.y
-      value: 784.3
+      value: 638
       objectReference: {fileID: 0}
     - target: {fileID: 1981118150922890, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143602132829020, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
@@ -3315,9 +3321,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - You...
-    - Your ways are barbaric, but perhaps you have some kind of answer...
-    - Something...
+    - '"You..."'
+    - '"Your ways are barbaric, but perhaps you have some kind of answer..."'
+    - '"Something..."'
   item: {fileID: 0}
   cam: {fileID: 0}
   itemDescrip: {fileID: 0}
@@ -4082,7 +4088,7 @@ Prefab:
       objectReference: {fileID: 904975327}
     - target: {fileID: 1981118150922890, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114960012796271418, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -4239,7 +4245,7 @@ Prefab:
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: I followed his orders despite myself, and now I'm simply lost...
+      value: '"I followed his orders despite myself, and now I''m simply lost..."'
       objectReference: {fileID: 0}
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -4296,6 +4302,31 @@ Prefab:
       propertyPath: m_Size.y
       value: 634.4
       objectReference: {fileID: 0}
+    - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: '"Yes, it is as you say."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: '"Maybe you can truly help."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: '"A fool and a barbarian, hmm?"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: '"I do not fear attack,"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: '"I fear retribution, divine or otherwise."'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
   m_IsPrefabParent: 0
@@ -4309,7 +4340,7 @@ Prefab:
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4777435388416868, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -4448,17 +4479,19 @@ Prefab:
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: 'An attack on my character is drivel if uttered by an idiot. '
+      value: "\u201CYou make me to be the equal of a jester? And one so lowly and
+        sinful?\""
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: 'I hold no love for gold nor trinkets, but perhaps too much for my lord '
+      value: '"I was meant only to burn his wares but he struck at me in the middle
+        of the night!"'
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: And not enough for myself or God's will.
+      value: '"It was truly and accident... toward him and his child."'
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -4468,18 +4501,19 @@ Prefab:
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "It\u2019s as you say. He lets no one near but I."
+      value: "\u201CUncanny... The merchant struck in the flickering light of the
+        fire, but I heard him coming.\""
       objectReference: {fileID: 0}
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "When his father, Ranuccio, died of poisoning, I couldn\u2019t just leave
-        him be."
+      value: "\"I\u2019m not as young as I once was, and I accidently spread the fire
+        from his stock to his home.\""
       objectReference: {fileID: 0}
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: "How many years have I donned this gaudy armor\u2026"
+      value: '"Another child left without a father."'
       objectReference: {fileID: 0}
     - target: {fileID: 224426368645785720, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -4588,7 +4622,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1981118150922890, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143602132829020, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
@@ -5001,6 +5035,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1070546874}
     m_Modifications:
+    - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4777435388416868, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_LocalPosition.x
       value: -441.9
@@ -5137,17 +5176,19 @@ Prefab:
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: I would never tolerate the likes of you had I felt worthy of God!
+      value: '"Maybe, but are you perhaps using your heathen magic to mock me, soothsayer?"'
       objectReference: {fileID: 0}
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: I would never harm my own lord, he who I treat like my own blood!
+      value: "\"Use your magic to see that I\u2019m not in the mood for jokes right
+        now instead.\""
       objectReference: {fileID: 0}
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: Had I my blade, I would not have minded ending the likes of you instead.
+      value: "\"I\u2019ll surely be punished for the sin I committed last night one
+        way or another, but perhaps talking to you is punishment in itself.\""
       objectReference: {fileID: 0}
     - target: {fileID: 65667880016632126, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -5167,17 +5208,20 @@ Prefab:
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: The guard... the boy was so young, and first to awaken...
+      value: "\"I would never tolerate the likes of you had I felt worthy of God,
+        but you see more than I\u2019d given you credit for.\""
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: He told me to show them what happens when your cross him, and I did,
+      value: "\"It was an accident, truly, and has was not an order of my liege. I\u2026
+        I panicked.\""
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: Even as I swore to never do so again as I did in the war.
+      value: "\"I left the blade behind knowing, hoping, I\u2019d have to face my
+        crimes. But here I am at a crossroads.\""
       objectReference: {fileID: 0}
     - target: {fileID: 224887193548711714, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -5265,7 +5309,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1981118150922890, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224678781382806086, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -5375,6 +5419,16 @@ Prefab:
       propertyPath: unlockOne
       value: 
       objectReference: {fileID: 47701363}
+    - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: '"Abandon my honor, run, and face divine retribution all alone, or face
+        the law?"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793620034371534, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
   m_IsPrefabParent: 0
@@ -6922,17 +6976,17 @@ Prefab:
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: 'An attack on my character is drivel if uttered by an idiot. '
+      value: '"An attack on my character is meanigless if spouted from a heathen!"'
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: 'I hold no love for gold nor trinkets, but perhaps too much for my lord '
+      value: '"I hold no love for gold nor trinkets, only for God and my liege!"'
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: And not enough for myself or God's will.
+      value: '"For the boy whose father I could neither save nor avenge..."'
       objectReference: {fileID: 0}
     - target: {fileID: 114107631061925594, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -6942,18 +6996,18 @@ Prefab:
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "It\u2019s as you say. He lets no one near but I."
+      value: "\"It\u2019s as you say. He lets no one near but I.\""
       objectReference: {fileID: 0}
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "When his father, Ranuccio, died of poisoning, I couldn\u2019t just leave
-        him be."
+      value: "\"When his father, Ranuccio, died of poisoning, I couldn\u2019t just
+        leave him be.\""
       objectReference: {fileID: 0}
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: "How many years have I donned this gaudy armor\u2026"
+      value: "\"How many years have I donned this gaudy armor\u2026\""
       objectReference: {fileID: 0}
     - target: {fileID: 224426368645785720, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
@@ -7062,7 +7116,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1981118150922890, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1143602132829020, guid: 05e5d81ea63d4a143b698be6344b008c, type: 2}
       propertyPath: m_IsActive
@@ -7162,8 +7216,8 @@ Prefab:
     - target: {fileID: 114654195249044286, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: "For\u2026 For how many years have I put his whims above my beliefs in
-        God and myself."
+      value: "\"For\u2026 For how many years have I put his whims above my beliefs
+        in God and myself.\""
       objectReference: {fileID: 0}
     - target: {fileID: 224339106806862216, guid: 05e5d81ea63d4a143b698be6344b008c,
         type: 2}

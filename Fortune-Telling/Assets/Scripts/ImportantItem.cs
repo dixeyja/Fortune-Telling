@@ -14,6 +14,7 @@ public class ImportantItem : MonoBehaviour {
     public GameObject optionTwo;
     public GameObject backButton;
     public GameObject lockIn;
+    public bool startItem;
 
 
     // Use this for initialization
@@ -27,6 +28,10 @@ public class ImportantItem : MonoBehaviour {
         lockIn.SetActive(false);
         initScale = transform.localScale;
         zoomScale = 1.2f * initScale;
+
+        if (!startItem){
+            gameObject.SetActive(false);
+        }
     }
 
     private void OnMouseOver()

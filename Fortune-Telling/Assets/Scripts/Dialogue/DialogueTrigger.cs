@@ -12,9 +12,10 @@ public class DialogueTrigger : MonoBehaviour {
     public GameObject itemOption1;
     public GameObject itemOption2;
     public GameObject backButton;
-    public GameObject itemLine;
     public GameObject itemName;
     public int trustVal;
+    public GameObject unlockOne;
+    public GameObject unlockTwo;
  
 
     public void OnMouseDown()
@@ -28,8 +29,15 @@ public class DialogueTrigger : MonoBehaviour {
         itemOption1.SetActive(false);
         itemOption2.SetActive(false);
         backButton.SetActive(false);
-        itemLine.SetActive(false);
         itemName.SetActive(false);
+
+        //for opening new points of interest in a specific order
+        if (unlockOne != null){
+            unlockOne.SetActive(true);
+            if (unlockTwo != null){
+            unlockTwo.SetActive(true);
+            }
+        }
 
         FindObjectOfType<Trust>().trustChange(trustVal);
     }

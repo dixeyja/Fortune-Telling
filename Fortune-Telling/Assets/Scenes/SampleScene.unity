@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 63442158}
   - component: {fileID: 63442160}
   - component: {fileID: 63442159}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: left_choice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1928,7 +1928,7 @@ GameObject:
   - component: {fileID: 529946926}
   - component: {fileID: 529946927}
   - component: {fileID: 529946928}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: back-button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2243,7 +2243,7 @@ GameObject:
   - component: {fileID: 589180009}
   - component: {fileID: 589180006}
   - component: {fileID: 589180010}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Restart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2539,7 +2539,7 @@ GameObject:
   - component: {fileID: 679854668}
   - component: {fileID: 679854669}
   - component: {fileID: 679854670}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: confirm-button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3772,7 +3772,7 @@ GameObject:
   - component: {fileID: 1091078992}
   - component: {fileID: 1091078989}
   - component: {fileID: 1091078993}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: UnPause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3809,7 +3809,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.12276077, y: 0.01018095}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3820,7 +3820,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 95.148476, y: 22.679138}
+  m_Size: {x: 95.705025, y: 22.856453}
   m_EdgeRadius: 0
 --- !u!114 &1091078990
 MonoBehaviour:
@@ -3896,7 +3896,7 @@ GameObject:
   - component: {fileID: 1166001539}
   - component: {fileID: 1166001538}
   - component: {fileID: 1166001541}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: card_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4898,7 +4898,7 @@ GameObject:
   - component: {fileID: 1302814431}
   - component: {fileID: 1302814430}
   - component: {fileID: 1302814433}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: card_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5396,7 +5396,7 @@ GameObject:
   - component: {fileID: 1421884963}
   - component: {fileID: 1421884960}
   - component: {fileID: 1421884964}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6152,7 +6152,7 @@ GameObject:
   - component: {fileID: 1675393810}
   - component: {fileID: 1675393812}
   - component: {fileID: 1675393811}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: right_choice
   m_TagString: Untagged
   m_Icon: {fileID: 0}

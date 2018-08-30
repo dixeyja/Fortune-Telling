@@ -3961,7 +3961,6 @@ GameObject:
   - component: {fileID: 1166001537}
   - component: {fileID: 1166001540}
   - component: {fileID: 1166001539}
-  - component: {fileID: 1166001541}
   m_Layer: 9
   m_Name: card_right
   m_TagString: Untagged
@@ -4021,31 +4020,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1166001536}
---- !u!61 &1166001541
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1166001536}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.32703853, y: -0.5}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 122.74654, y: 226.44609}
-  m_EdgeRadius: 0
 --- !u!1001 &1270905226
 Prefab:
   m_ObjectHideFlags: 0
@@ -4978,7 +4952,6 @@ GameObject:
   - component: {fileID: 1302814429}
   - component: {fileID: 1302814432}
   - component: {fileID: 1302814431}
-  - component: {fileID: 1302814433}
   m_Layer: 9
   m_Name: card_left
   m_TagString: Untagged
@@ -5038,31 +5011,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1302814428}
---- !u!61 &1302814433
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1302814428}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 122.5616, y: 227.09485}
-  m_EdgeRadius: 0
 --- !u!1001 &1323203227
 Prefab:
   m_ObjectHideFlags: 0
